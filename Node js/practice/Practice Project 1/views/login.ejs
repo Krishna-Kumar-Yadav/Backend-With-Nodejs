@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+  </head>
+  <body
+    style="
+      height: 100vh;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    "
+  >
+    <form action="/login" method="post">
+      <div>
+        <input
+          type="text"
+          placeholder="Email or phone number"
+          name="loginid"
+          style="
+            font-size: 1rem;
+            margin-bottom: 3rem;
+            width: 18rem;
+            padding: 0.5rem 1rem;
+          "
+        />
+      </div>
+      <div>
+        <input
+          type="password"
+          placeholder="Password"
+          name="loginPassword"
+          style="
+            font-size: 1rem;
+            margin-bottom: 3rem;
+            width: 18rem;
+            padding: 0.5rem 1rem;
+          "
+        />
+      </div>
+      <div>
+        <button
+          type="reset"
+          style="
+            background-color: red;
+            font-size: 1.4rem;
+            padding: 0.5rem;
+            margin-right: 7rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+          "
+        >
+          Reset
+        </button>
+        <button
+          type="submit"
+          style="
+            background-color: rgb(32, 172, 19);
+            font-size: 1.4rem;
+            padding: 0.5rem;
+            margin-right: 7rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+          "
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </body>
+</html>

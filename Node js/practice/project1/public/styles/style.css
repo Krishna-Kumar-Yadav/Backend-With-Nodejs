@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #131313;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.title,
+.content {
+  width: 25rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem 0;
+  color: #131313;
+}
+.content {
+  height: 10rem;
+  resize: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+button {
+  font-size: 1rem;
+  color: #131313;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  margin-right: 3rem;
+  cursor: pointer;
+}
+
+.cardContainer {
+  height: 12rem;
+  width: 95%;
+  background-color: white;
+  border-radius: 1rem;
+  margin-left: 2rem;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem 0 1rem;
+}
+
+.card {
+  height: 90%;
+  width: 15rem;
+  color: white;
+  background-color: #131313;
+  border-radius: 0.5rem;
+}
+
+a {
+  margin: 7rem 1rem 1rem 7rem;
+  text-decoration: none;
+  color: blue;
+  bottom: 1rem;
+}

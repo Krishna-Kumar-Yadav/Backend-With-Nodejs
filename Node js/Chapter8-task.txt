@@ -1,0 +1,17 @@
+RestApi - JSON FORMAT
+
+Get /users -> list all users
+
+Get /users/1 -> list user with id 1
+Get /users/2 -> list user with id 2
+Get /users/3 -> list user with id 3
+
+POST / users -> Create new user
+
+Patch / users/1 -> EDit user with id 1
+Patch / users/2 -> EDit user with id 2
+Patch / users/3 -> EDit user with id 3
+
+Delete /Users/1 -> Delete user with id 1
+Delete /Users/2 -> Delete user with id 2
+Delete /Users/3 -> Delete user with id 3

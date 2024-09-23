@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Short Url</title>
+  </head>
+  <body
+    style="
+      background-color: #131313;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    "
+  >
+    <form action="/submit" method="post">
+      <div>
+        <input
+          type="text"
+          placeholder="Enter the URL"
+          name="original_url"
+          style="font-size: 1.5rem; padding: 0.5rem 1rem; border-radius: 0.5rem"
+        />
+        <button
+          type="submit"
+          style="
+            font-size: 1.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+          "
+        >
+          Submit
+        </button>
+      </div>
+      <div style="padding-top: 2rem">
+        <div
+          style="
+            height: 3rem;
+            width: 22rem;
+            background-color: white;
+            border-radius: 0.5rem;
+            padding: 0.5rem 2rem;
+            font-size: 2rem;
+          "
+        >
+          <%= data %>
+        </div>
+        <div
+          style="
+            font-size: 1.5rem;
+            height: max-content;
+            width: max-content;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            background-color: aliceblue;
+          "
+        >
+          Count 0
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

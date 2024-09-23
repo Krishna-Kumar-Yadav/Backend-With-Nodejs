@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nodejs Project 1</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <center><h1>To-Do App</h1></center>
+  <form action="/create" method="post">
+    <input class="title" type="text" placeholder="Enter the title" name="title" required />
+    <textarea class="content" placeholder="Write whatever in your mind" name="content" required></textarea>
+    <div class="btn">
+      <button type="reset" class="bg-red">Reset</button>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+  <div class="cardContainer">
+    <% if (files.length > 0) { %>
+      <% files.forEach((file) => { %>
+        <div class="card">
+          <center><h1><%= file %></h1></center>
+          <a href="/files/<%= file %>">...Read More</a>
+        </div>
+      <% }) %>
+    <% } else { %>
+      <center><h1 style="color: black;">No task is Added</h1></center>
+    <% } %>
+  </div>
+  <script src="/script.js" type="module"></script>
+</body>
+</html>

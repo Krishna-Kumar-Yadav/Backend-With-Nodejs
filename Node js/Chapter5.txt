@@ -1,0 +1,12 @@
+http methods are
+
+
+* GET -> when user fetch the data from server like searching of youtube.com
+
+* POST -> when user entersome detail and send it to server like in authentication,signup
+
+* PUT  -> WHEN user upload some file in server like uploading images or file
+
+* Patch -> when user edit or change something from database through server like profile editing
+
+* Delete-> when user delete data from database server
